@@ -5,7 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="31dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,90 +42,90 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="253dp"
         tools:layout_editor_absoluteY="17dp"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="120dp"
-        android:layout_height="48dp"
-        android:text="Switch"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="220dp" />
-
-    <Switch
-        android:id="@+id/switch3"
-        android:layout_width="118dp"
-        android:layout_height="49dp"
-        android:text="Switch"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <Switch
         android:id="@+id/switch2"
-        android:layout_width="118dp"
-        android:layout_height="57dp"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
         android:text="Switch"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="285dp" />
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:text="Switch"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="348dp"
+        android:layout_height="47dp"
+        android:text="Switch"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="175dp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="307dp"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="307dp"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="447dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="447dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="376dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="473dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="376dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="516dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="475dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="544dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
