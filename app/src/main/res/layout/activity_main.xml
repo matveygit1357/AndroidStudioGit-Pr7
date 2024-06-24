@@ -45,4 +45,28 @@
         tools:srcCompat="@tools:sample/avatars"
         tools:ignore="MissingConstraints" />
 
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="239dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
